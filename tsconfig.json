@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "jsx": "react",
     "target": "es2017",
     "module": "commonjs",
     "lib": [
@@ -26,13 +27,13 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "resolveJsonModule": true,
-    "baseUrl": "."
+    "baseUrl": ".",
   },
   "exclude": [
     "node_modules"
   ],
   "include": [
-    "./src/**/*.ts",
+    "./src/**/*.tsx",
     "./src/*.js"
   ]
 }
